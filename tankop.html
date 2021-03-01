@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/kaffekort.css">
+    <meta name="robots" content="noindex">
+    <title>Street Coffee | Kaffekort</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main class="tankop">
+            <h1>Manuel betaling</h1>
+            <p>
+                Vælg et beløb du vil tanke-op og begynd din <br>
+                besparelse nu!
+            </p>
+            <form action="done.html">
+
+                <div class="indbetal">
+                    <input type="number" placeholder="Vælg beløb" required/>
+                </div>
+
+                <div class="betalingskort">
+                    <label>Betalingskort</label>
+                    <img src="img/payment-cards.png" alt="Betalingskort">
+                </div>
+                <label>Kortnummer</label>
+                <input type="number" placeholder="Kortnummer" required/> <br>
+
+                <div class="input-box">
+                    <div class="input-dato">
+                        <label>Udløbsdato</label>
+                        <input type="number" placeholder="MM / AA" required/> <br/>
+                    </div>
+
+                    <div class="input-kontrol">
+                        <label>Kontrolcifre</label>
+                        <input type="number" placeholder="CVC" required/>
+                    </div>
+                </div>
+
+                <div class="submit-form">
+                    <input type="submit" value="Betal" class="blue-btn">
+                </div>
+            </form>
+            <a href="kaffekort.html">
+                <button class="dark-btn">Annullere</button>
+            </a>
+        </main>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
